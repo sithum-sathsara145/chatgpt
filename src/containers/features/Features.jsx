@@ -3,6 +3,6 @@ import './features.css'
 
 export default function Features() {
   return (
-    <div>F</div>
+    <div>Features</div>
   )
 }
