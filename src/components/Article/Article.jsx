@@ -1,9 +1,9 @@
-import React from 'react'
-import './Article.css'
+import React from "react";
+import "./Article.css";
 
-export default function Article({imgURL, title, date}) {
+export default function Article({ imgURL, title, date }) {
   return (
-    <div className='gpt3__blog-container_article'>
+    <div className="gpt3__blog-container_article">
       <div className="gpt3__blog-container_article-image">
         <img src={imgURL} alt="blogImage" />
       </div>
@@ -15,5 +15,5 @@ export default function Article({imgURL, title, date}) {
         <p>Read Full article</p>
       </div>
     </div>
-  )
+  );
 }
