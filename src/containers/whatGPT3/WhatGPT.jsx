@@ -8,7 +8,7 @@ export default function WhatGPT() {
   const knowledge = 'At jointure ladyship an insisted so humanity he. Friendly bachelor entrance to on by. As put impossible own apartments '
   const education = 'At jointure ladyship an insisted so humanity he. Friendly bachelor entrance to on by. As put impossible own apartments '
   return (
-    <div className='gpt3__whatgpt3 section__margin'>
+    <div className='gpt3__whatgpt3 section__margin' id='wghp3'>
       <div className="gpt3__whatgpt3-feature">
         <Feature title='What is GPT-3' text={whatgptText}/>
       </div>
